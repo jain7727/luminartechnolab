@@ -1,0 +1,152 @@
+.cont-heading{
+    display: flex;
+    
+}
+.tech-head{
+    margin-left: 10px;
+    color: #5e068a99;
+}
+.main-para{
+    margin-top: 20px;
+    
+}
+.style-para{
+    line-height: 30px;
+    margin-right: 150px;
+}
+.btn-cont{
+    margin-top: 30px;
+}
+
+.btn-style{
+    padding: 20px 35px;
+    border-radius: 50px;
+    color: white;
+    background-color: #5e068a;
+    border: 2px solid #5e068a;
+}
+
+.btn-style:hover{
+    color: #5e068a;
+    background-color: white;
+    transition: 0.5s;
+    
+}
+.img-modi{
+    height: 600px;
+    width: 450px;
+}
+/* .course-cont{
+    margin-top: 100px;
+} */
+
+.course-heading{
+    display: flex;
+    justify-content: center;
+    
+}
+.course-head{
+    color: #5e068a99;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.img-pro{
+    height: 100%;
+    width: 100%;
+    
+}
+.head-cours{
+    color: #5e068a;
+    margin-top: 50px;
+}
+.subs-para{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.data-row-style:hover{
+transform:translateY(-5px);
+transition: 0.5s;
+box-shadow: 0px 0 20px grey;
+
+}
+.subj-button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #5e068a;
+    color: white;
+    background-color: #5e068a;
+    margin-top: 20px;
+}
+
+.cards-hover:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
+    box-shadow: 0 0 10px gray;
+}
+.courses-button{
+    margin-top: 60px;
+    height: 60px;
+    width: 170px;
+    border-radius: 50px;
+    border: 1px solid #5e068a;
+    background-color: white;
+    color: #5e068a;
+    font-size: 15px;
+}
+.courses-button:hover{
+    background-color: #5e068a;
+    transition: 0.3s;
+    color: white;
+    font-weight: 600;
+}
+.nav-list{
+    /* margin: 10px ; */
+    padding: 28px 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.nav-list:hover{
+    color: #5e068a;
+}
+.style-img{
+    height: 500px;
+    filter: brightness(40%);
+}
+.car-head{
+    font-size: 60px;
+    text-align: start;
+    
+    
+    
+}
+.car-but{
+    height: 70px;
+    width: 220px;
+    border: 1px solid #5e068a;
+    background-color: #5e068a;
+    color: white;
+    border-radius: 50px;
+    
+    
+}
+.car-para{
+    margin-right: 200px;
+    line-height: 30px;
+    text-align: start;
+}
+
+
+/* .move:hover{
+    transform: translateY(-50px);
+    transition: 1.5s;
+} */
+
+
+.move{
+    position: relative;
+    animation: hello 2s ;
+}
+@keyframes hello {
+    from {top: 200px;}
+    to {top: 0px;}
+  }
